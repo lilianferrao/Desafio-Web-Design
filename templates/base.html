@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+
+    <link rel="stylesheet" href={{ url_for('static', filename='css/normalize.css')}}>
+    <link rel="stylesheet" href={{ url_for('static', filename='css/estilo.css')}}>
+
+</head>
+<body>
+    
+     <!--TOPO-->
+    
+     <div>
+        <h1 id="Linhaazul"> <hr size="5" color="navy"></h1>
+    
+     </div>
+     
+     <div>
+     
+        <h1 id="imagemlogo"><img src="../static/Imagem/logo.png" alt="logo"></h1>
+ 
+     </div>
+     <div class="link">
+         <a href="/">HOME</a> |
+         <a href="/quemsomos/">Quem Somos</a> |
+         <a href="/contato/">Contato</a>
+         
+         
+     </div>
+
+     {% block conteudo %}
+
+     {% endblock %}
+
+     <!--bOTTOM-->
+        
+     <h4 id="direitosreservados"><p>Todos os direitos reservados</p></h4>
+    </div>   
+    
+
+   
+</body>
+</html>

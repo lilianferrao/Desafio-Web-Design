@@ -1,0 +1,62 @@
+
+#linhaazul{
+    margin-top: 100px;
+}
+
+.link{
+    margin-bottom: 0px;
+    margin-top: -80px;
+    margin-left: 1100px;
+    padding: 20px;
+  }
+
+#imagemlogo{
+    margin-left: 180px;
+    margin-top: 0px;
+    padding-right: 1000px;
+  }
+
+#imagemcapa{
+    margin-left: 300px;
+    margin-top: 80px;
+}
+
+#fundo{
+    margin-left: 180px;
+    margin-top: -445px;
+}
+#fundo2{
+    margin-left: 1200px;
+    margin-top: -448px;
+}
+
+.texto{
+    margin-left: 300px;
+    margin-right: 300px;
+    text-align: justify;
+}
+
+#direitosreservados{
+    text-align: justify;
+    margin-left: 350px;
+}
+
+form div + div{
+    margin-top: 10px;
+}
+
+label {
+    
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+}
+
+.button{
+    margin-left: 150px;
+}
+
+body{
+    max-width: 80%;
+    margin: 0 auto;
+}
